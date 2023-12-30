@@ -53,6 +53,7 @@ after_build:
   - tree /F "Cheat Engine\bin"
   - 7z a Cheat-Engine-%APPVEYOR_REPO_COMMIT%.zip "Cheat Engine\bin"
 
+
 #---------------------------------#
 #       tests configuration       #
 #---------------------------------#
